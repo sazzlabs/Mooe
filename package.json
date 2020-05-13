@@ -1,0 +1,44 @@
+{
+  "name": "mooe",
+  "version": "0.0.5",
+  "description": "A (not) awesome Discord API NodeJS Wrapper.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "exports": {
+    ".": [
+      {
+        "require": "./index.js"
+      },
+      "./index.js"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaiifuTech/Mooe.git"
+  },
+  "keywords": [
+    "discord",
+    "api",
+    "nodejs",
+    "wrapper",
+    "bot",
+    "mooe"
+  ],
+  "author": "WaiifuTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WaiifuTech/Mooe/issues"
+  },
+  "homepage": "https://github.com/WaiifuTech/Mooe#readme",
+  "dependencies": {
+    "eventemitter3": "^4.0.4",
+    "events": "^3.1.0",
+    "uws": "^100.0.1",
+    "ws": "^7.3.0"
+  }
+}
