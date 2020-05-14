@@ -1,6 +1,6 @@
 {
   "name": "mooe",
-  "version": "0.0.6-SNAPSHOT",
+  "version": "0.0.7-SNAPSHOT",
   "description": "A (not) awesome Discord API NodeJS Wrapper.",
   "main": "index.js",
   "directories": {
